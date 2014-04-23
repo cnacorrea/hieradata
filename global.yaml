@@ -1,0 +1,10 @@
+---
+classes:
+  - bash
+  - puppet
+
+bash::umask: "0022"
+
+#bash::network_proxy: "proxy.cnacorrea.it:3128"
+
+bash::timeout: "900"
